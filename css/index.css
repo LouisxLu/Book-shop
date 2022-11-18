@@ -1,76 +1,98 @@
-/* 使用margin：0 auto 让盒子水平居中 */
-
-.logo {
-  height: 100px;
-  border-top: 3px solid #8f1d1e;
-  position: relative;
-  margin: 0 auto;
-  background-color: #fff;
+.main {
+  padding: 20px;
+  background-color: #efede9;
 }
 
-.logo a {
+.main .breadcrumbs {
   text-align: center;
+  font-size: 15px;
+  letter-spacing: 2.88px;
+}
+
+.main .breadcrumbs a {
+  display: inline-block;
+  border-bottom: 0.5px solid #bbb;
+  padding: 0;
+  color: #8f1d1e;
+  margin-bottom: 15px;
+}
+
+.main .breadcrumbs a:hover {
+  color: #4a4949;
+}
+
+.main .rowone {
+  height: 500px;
+  width: 1072px;
+  background-color: #fff;
+  padding: 0px 15px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.rowone .material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+  position: absolute;
+  top: 50%;
+  color: black;
+}
+.rowone .material-symbols-outlined:last-child {
+  right: 15px;
+}
+
+.rowone .heroslide {
+  width: 365px;
+  height: 459px;
+
+  position: absolute;
+  left: 80px;
+  top: 10px;
+  padding-left: 20px;
+}
+
+.rowone .heroslide a {
+  width: 365px;
+  height: 459px;
+  display: inline-block;
+  background-image: url(../images/T5098_01.jfif);
+  background-size: contain;
+}
+
+.rowone .content {
+  width: 486px;
+  height: 459px;
+
+  position: absolute;
+  right: 40px;
+  top: 10px;
+  padding-right: 20px;
+}
+
+.rowone .content h3 {
+  font-style: italic;
+  line-height: 26px;
+  display: block;
+  margin-top: 120px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: #aaa59c;
+}
+
+.rowone .content a span {
+  font-size: 18px;
+  color: #89837a;
+}
+
+.rowone .content .publication-author {
+  font-size: 24px;
   color: #8f1d1e;
 }
 
-.logo a h1 {
-  font-size: 3em;
-  font-family: "EB Garamond", serif;
-  font-weight: 700;
+.rowone .content .publication-author i {
+  font-style: italic;
 }
-
-.logo a h2 {
-  font-size: 20px;
-  font-family: "Baskervville", serif;
-  color: #c4bdb1;
-  font-weight: 400;
-}
-
-#btn-basket {
-  position: absolute;
-  display: block;
-  width: 48px;
-  height: 37px;
-  top: 25px;
-  right: 25px;
-  background-image: url(../images/basket.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  line-height: 30px;
-  text-indent: -7px;
-  font-size: 14px;
-  text-align: center;
-}
-
-.nav {
-  height: 42px;
-  background-color: #8f1d1e;
-}
-
-.nav ul {
-  text-align: center;
-}
-
-.nav ul li {
-  display: inline-block;
-}
-.nav ul li a {
-  color: #fff;
-  float: left;
-  font-size: 1.5em;
-  margin-left: 20px;
-  height: 45px;
-  line-height: 45px;
-  text-align: center;
-}
-
-.material-symbols-outlined {
-  float: left;
-  color: #fff;
-  margin-top: 5px;
-}
-
-#search-icon {
-  float: left;
-  margin-left: 0;
+.rowone .content p {
+  font-size: 16px;
+  color: #aaa59c;
 }

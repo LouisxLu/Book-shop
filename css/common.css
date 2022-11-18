@@ -7,3 +7,159 @@ option {
   font-family: "Caslon 540 Multilingual W01", Baskerville,
     "Baskerville Old Face", Garamond, "Times New Roman", serif;
 }
+
+/* 使用margin：0 auto 让盒子水平居中 */
+
+.logo {
+  height: 100px;
+  border-top: 3px solid #8f1d1e;
+  position: relative;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.logo a {
+  text-align: center;
+  color: #8f1d1e;
+}
+
+.logo a h1 {
+  font-size: 3em;
+  font-family: "EB Garamond", serif;
+  font-weight: 700;
+}
+
+.logo a h2 {
+  font-size: 20px;
+  font-family: "Baskervville", serif;
+  color: #c4bdb1;
+  font-weight: 400;
+}
+
+#btn-basket {
+  position: absolute;
+  display: block;
+  width: 48px;
+  height: 37px;
+  top: 25px;
+  right: 25px;
+  background-image: url(../images/basket.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  line-height: 30px;
+  text-indent: -7px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.nav {
+  height: 42px;
+  background-color: #8f1d1e;
+}
+
+.nav ul {
+  text-align: center;
+}
+
+.nav ul li {
+  display: inline-block;
+}
+.nav ul li a {
+  color: #fff;
+  float: left;
+  font-size: 1.5em;
+  margin-left: 20px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+}
+
+.material-symbols-outlined {
+  float: left;
+  color: #fff;
+  margin-top: 5px;
+}
+
+#search-icon {
+  float: left;
+  margin-left: 0;
+}
+
+.footer {
+  padding: 0 30px;
+  margin: 0 auto;
+  text-align: center;
+  height: 250px;
+  padding-bottom: 24px;
+}
+
+.footer .external {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  margin-left: 22px;
+}
+
+.footer .external:nth-child(1) {
+  background-image: url(../images/aba_logo.png);
+  background-size: cover;
+}
+
+.footer .external:nth-child(2) {
+  background-image: url(../images/bada_logo_new.png);
+  background-size: cover;
+}
+
+.footer .external:nth-child(3) {
+  background-image: url(../images/ilab_logo.png);
+  background-size: cover;
+}
+
+.footer p {
+  color: #4a4949;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.footer p a {
+  color: #8f1d1e;
+}
+
+.links {
+  font-style: italic;
+}
+
+.socials {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.socials li {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  margin-right: 10px;
+}
+
+.socials li a {
+  display: block;
+}
+
+.socials li a:before {
+  display: block;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../images/social.svg);
+  background-size: 24px 72px;
+  position: absolute;
+}
+
+.socials li.facebok a:before {
+  background-position: left bottom !important;
+}
