@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Baskervville:ital@1&family=EB+Garamond&family=Playfair+Display:wght@900&display=swap");
+body,
+input,
+.search .text,
+select,
+option {
+  font-family: "Caslon 540 Multilingual W01", Baskerville,
+    "Baskerville Old Face", Garamond, "Times New Roman", serif;
+}

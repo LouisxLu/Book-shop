@@ -1,0 +1,76 @@
+/* 使用margin：0 auto 让盒子水平居中 */
+
+.logo {
+  height: 100px;
+  border-top: 3px solid #8f1d1e;
+  position: relative;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.logo a {
+  text-align: center;
+  color: #8f1d1e;
+}
+
+.logo a h1 {
+  font-size: 3em;
+  font-family: "EB Garamond", serif;
+  font-weight: 700;
+}
+
+.logo a h2 {
+  font-size: 20px;
+  font-family: "Baskervville", serif;
+  color: #c4bdb1;
+  font-weight: 400;
+}
+
+#btn-basket {
+  position: absolute;
+  display: block;
+  width: 48px;
+  height: 37px;
+  top: 25px;
+  right: 25px;
+  background-image: url(../images/basket.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  line-height: 30px;
+  text-indent: -7px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.nav {
+  height: 42px;
+  background-color: #8f1d1e;
+}
+
+.nav ul {
+  text-align: center;
+}
+
+.nav ul li {
+  display: inline-block;
+}
+.nav ul li a {
+  color: #fff;
+  float: left;
+  font-size: 1.5em;
+  margin-left: 20px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+}
+
+.material-symbols-outlined {
+  float: left;
+  color: #fff;
+  margin-top: 5px;
+}
+
+#search-icon {
+  float: left;
+  margin-left: 0;
+}
